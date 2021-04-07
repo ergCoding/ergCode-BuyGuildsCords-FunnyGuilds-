@@ -1,0 +1,42 @@
+#Nazwa przedmiotu.
+item: EMERALD_BLOCK
+
+#Ilosc danego przedmiotu.
+amount: 32
+
+#Wiadomosc przy braku itemow.
+#Dostepne zmienne: {AMOUNT} czyli ilsoc ile potrzebuje gracz / pobierana z amount.
+item-lack:
+- ""
+- "Nie posiadasz tyle emeraldow!"
+- "Musisz posiadac: {AMOUNT}"
+- ""
+
+#Wiadomosc przy poprawnym uzyciu.
+usage: "Poprawne uzycie: /kupkordy <tag gildii>"
+
+#Wiadomosc gdy tag gildii nie istnieje!
+#Dostepne zmienne: {GUILD} tag gildii ktora wpisze gracz.
+error-tag-guild: "Gildia: {GUILD} nie istnieje!"
+
+#Wiadomosc, gdy gracz zamiast liter wpisze liczbe.
+tag-number: "Tag gildii nie moze skladac sie z liczb."
+
+#Z ilu liter ma sie skladac tag, ktory wpisze gracz.
+tag-short: 3
+tag-long: 4
+
+#Wiadomosc gdy gracz wpisze nieodpowiednia liczbe liter tagu
+#Dostepne zmienne: {TAG-SHORT}, {TAG-LONG} sa pobierane z tag-short, tag-long.
+tag-short-long: "Tag wpisany musi skladac sie od: {TAG-SHORT} do {TAG-LONG} liter."
+
+#Wiadomosc gdy gracz zakupi kordy.
+#Dostepne zmienne: {X}, {Y}
+buy-cords:
+- ""
+- "Pomyslnie zakupiles kordy gildii: {GUILD}"
+- "Kordy gildii: x: {X} z: {Z}"
+- ""
+
+#Wiadomosc przy przeladowywaniu configu.
+reload: "Pomyslnie przeladowano config"

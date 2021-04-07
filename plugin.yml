@@ -1,0 +1,10 @@
+name: ergCodeBuyCordsGuilds
+version: 1.0
+author: [ergCode]
+main: pl.erg.guildscords.GuildsCords
+depend: [FunnyGuilds]
+
+
+commands:
+  kupkordy:
+  reload-config-cords:
